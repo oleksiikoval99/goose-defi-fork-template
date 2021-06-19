@@ -12,12 +12,8 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.goosedefi.com/',
-      },
-      {
-        label: 'Liquidity',
-        href: 'https://exchange.goosedefi.com/#/pool',
-      },
+        href: process.env.REACT_APP_EXCHANGE_URL
+      }
     ],
   },
   {
